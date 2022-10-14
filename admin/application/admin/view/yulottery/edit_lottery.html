@@ -1,0 +1,107 @@
+{include file='public/meta' /}
+
+<main class="layui-layout">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<h4>
+							修改开奖
+						</h4>
+					</div>
+					<div class="card-body">
+						<form class="layui-form" id="loginfrom">
+							<div class="form-group">
+								<label>
+									开奖号码1
+								</label>
+								<input class="form-control" type="number" id="opencode1" name="opencode1" placeholder="请输入开奖号码第1位数字" value="{$opencode[0]}">
+
+								<label>
+									开奖号码2
+								</label>
+								<input class="form-control" type="number" id="opencode2" name="opencode2" placeholder="请输入开奖号码第2位数字" value="{$opencode[1]}">
+
+								<label>
+									开奖号码3
+								</label>
+								<input class="form-control" type="number" id="opencode3" name="opencode3" placeholder="请输入开奖号码第3位数字" value="{$opencode[2]}">
+							</div>
+							<input type="hidden" name="name" value="{$info['name']}">
+							<input type="hidden" name="key" value="{$info['key']}">
+							<input type="hidden" name="expect" value="{$info['expect']}">
+							<input type="hidden" name="create_time" value="{$info['create_time']}">
+							<div class="form-group">
+								<button class="layui-btn" type="button" lay-submit lay-filter="save">
+								    提交
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+{include file='public/onlyfooter'/}
+<script>
+
+layui.use(['form'], function(){
+  var layer = layui.layer
+  ,form = layui.form  
+  ,layer = layui.layer;
+
+   //监听提交
+  form.on('submit(save)', function(data){
+	  layer.confirm('确认保存预开奖？', function (index) {
+		  $.ajax({
+			  type: 'post',
+			  url: "{:url('doSave')}",
+			  data: data.field,
+			  dataType: "json",
+			  success: function (data) {
+				  console.log(data)
+				  if (data.code === 200) {
+					  layer.msg(data.msg, {
+						  icon: 1,
+						  time: 1000 //2秒关闭（如果不配置，默认是3秒）
+					  }, function () {
+						  /*layer.close(index);
+						  // table.reload('table');
+						  reloadView();*/
+
+						  /*layer.closeAll();
+						  window.parent.location.reload();
+						  var index = parent.layer.getFrameIndex(window.name);
+						  parent.layer.close(index);*/
+					  });
+				  } else {
+					  layer.close(index);
+					  layer.msg(data.msg);
+				  }
+			  },
+			  error: function (XMLHttpRequest, textStatus, errorThrown) {
+				  layer.closeAll();
+				  if (textStatus == "timeout") {
+					  layer.msg('请求超时！', {
+						  icon: 2,
+						  time: 1500 //2秒关闭（如果不配置，默认是3秒）
+					  }, function () {
+						  layer.close(index);
+					  });
+				  } else {
+					  layer.msg('服务器错误！', {
+						  icon: 2,
+						  time: 1500 //2秒关闭（如果不配置，默认是3秒）
+					  }, function () {
+						  layer.close(index);
+					  });
+				  }
+			  },
+		  });
+	  });
+    });
+});
+
+</script>

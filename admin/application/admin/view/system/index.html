@@ -1,0 +1,188 @@
+{include file='public/meta' /}
+{include file='public/menu' /}
+{include file='public/head' /}
+    <main class="layout-content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="card">
+				<div class="card-header">
+					<h4>
+						基本配置
+					</h4>
+				</div>
+				<div class="card-body">
+					<form class="layui-form" id="loginfrom">
+    						<div class="form-group">
+    							<label>
+    								站点名称
+    							</label>
+                                <input class="form-control" type="text" id="name" name="name"
+    								placeholder="请输入您的站点名称" value="{:isset($base.name)?$base.name:''}">	
+    							<small class="help-block">显示在线客服里面的标题</small>
+    						</div>
+							<div class="form-group">
+							<label>
+								每日提现次数
+							</label>
+                            <input class="form-control" type="text" id="withraw_num" name="withraw_num"
+								placeholder="请输入每日提现次数" value="{:isset($base.withraw_num)?$base.withraw_num:'3'}">	
+							<small class="help-block">玩家提现次数限制</small>
+						</div>
+								<div class="form-group">
+							<label>
+								视频观看时长限制
+							</label>
+                            <input class="form-control" type="text" id="see_num" name="see_num"
+								placeholder="视频观看时长限制(秒)" value="{:isset($base.see_num)?$base.see_num:'10'}">	
+							<small class="help-block">玩家提现次数限制</small>
+						</div>
+							<div class="form-group">
+							<label>
+								提现最小金额
+							</label>
+                            <input class="form-control" type="text" id="withraw_min" name="withraw_min"
+								placeholder="请输入提现最小金额" value="{:isset($base.withraw_min)?$base.withraw_min:'50'}">	
+							<small class="help-block">玩家提现最小金额限制</small>
+						</div>
+							<div class="form-group">
+							<label>
+								提现最大金额
+							</label>
+                            <input class="form-control" type="text" id="withraw_max" name="withraw_max"
+								placeholder="请输入提现最大金额" value="{:isset($base.withraw_max)?$base.withraw_max:'500'}">	
+							<small class="help-block">玩家提现最大金额限制</small>
+						</div>
+						<div class="form-group">
+							<label>
+								站点LOGO
+							</label>
+                            <div class="form-group">
+                                <div class="layui-upload-drag" id="ico">
+                                  <i class="layui-icon"></i>
+                                  <p>点击上传，或将文件拖拽到此处</p>
+                                  <div {if !isset($base.ico)}class="layui-hide"{/if} id="uploadDemoView">
+                                    <hr>
+                                    <input type="hidden" id="icoinput" name="ico" value="{:isset($base.ico)?$base.ico:''}">
+                                    <img src="{:isset($base.ico)?$base.ico:''}" alt="图标" style="max-width: 130px;height: 30%;">
+                                  </div>
+                                </div>  
+                            </div>	
+                            <small class="help-block">显示在登录、注册和忘记密码的图标</small>
+						</div>
+						<div class="form-group">
+							<label>
+								三方客服连接
+							</label>
+                            <input class="form-control" type="text" id="kefu" name="kefu"
+								placeholder="请输入您的三方客户连接" value="{:isset($base.kefu)?$base.kefu:''}">	
+							<small class="help-block">显示在个人中心的在线客服</small>
+						</div>
+                        <!--<div class="form-group">-->
+                        <!--    <label>-->
+                        <!--        是否允许撤单-->
+                        <!--    </label>-->
+                        <!--    <div>-->
+                        <!--        <input type="radio" name="chedan" value="1" title="是" {if isset($base.chedan)}{if $base.chedan == 1}checked {/if}{/if}>-->
+                        <!--        <input type="radio" name="chedan" value="0" title="否" {if isset($base.chedan)}{if $base.chedan == 0}checked {/if}{else /}checked{/if}>-->
+                        <!--    </div>-->
+                        <!--</div>-->
+                        <div class="form-group">
+                            <label>
+                                是否开启客服
+                            </label>
+                            <div>
+                                <input type="radio" name="iskefu" value="1" title="是" {if isset($base.iskefu)}{if $base.iskefu == 1}checked {/if}{/if}>
+                                <input type="radio" name="iskefu" value="0" title="否" {if isset($base.iskefu)}{if $base.iskefu == 0}checked {/if}{else /}checked{/if}>
+                            </div>
+                        </div>   
+                        <div class="form-group">
+                            <label>
+                                是否有余额观看视频
+                            </label>
+                            <div>
+                                <input type="radio" name="isplay" value="1" title="是" {if isset($base.isplay)}{if $base.isplay == 1}checked {/if}{/if}>
+                                <input type="radio" name="isplay" value="0" title="否" {if isset($base.isplay)}{if $base.isplay == 0}checked {/if}{else /}checked{/if}>
+                            </div>
+                        </div>                        
+						<div class="form-group">
+							<button class="layui-btn" type="button" lay-submit lay-filter="save">
+							    保存	
+							</button>
+						</div>
+					</form>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+{include file='public/footer'/}
+<script>
+
+layui.use(['form','upload', 'element'], function(){
+  var layer = layui.layer
+  ,form = layui.form  
+  ,upload = layui.upload
+  ,element = layui.element
+  ,layer = layui.layer;
+  //拖拽上传
+  upload.render({
+    elem: '#ico'
+    ,url: "{:url('doupload')}" //此处用的是第三方的 http 请求演示，实际使用时改成您自己的上传接口即可。
+    ,before: function(obj){
+      layer.msg('上传中', {icon: 16, time: 0});
+    }
+    ,done: function(res){
+      $("#icoinput").val(res.data);
+      layui.$('#uploadDemoView').removeClass('layui-hide').find('img').attr('src', res.data);
+      layer.msg('上传成功');
+    }
+  }); 
+   //监听提交
+  form.on('submit(save)', function(data){
+        var loading = layer.load(0, {shade: false});
+        $.ajax({
+            type: 'post',
+            url: "{:url('doSave')}",
+            data:$("#loginfrom").serialize(),
+            dataType:"json",
+            success: function(data) {
+                if(data.code === 200){
+                    layer.msg(data.msg, {
+                      icon: 1,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        layer.closeAll();
+                        window.location.reload();
+                    });                      
+                }else{
+                     layer.closeAll();
+                     layer.msg(data.msg);
+                     return false;
+                }  
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                layer.closeAll();
+                if (textStatus == "timeout") {
+                    layer.msg('请求超时！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        return false;
+                    });                      
+                } else {
+                    layer.msg('服务器错误！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        return false;
+                    });                         
+                }
+            },                    
+        }); 
+    });
+});
+
+</script>
+

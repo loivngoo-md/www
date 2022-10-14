@@ -1,0 +1,155 @@
+[
+    {
+        "title":"超管管理"
+        ,"id": 1
+        ,"field":"admin"
+        ,"spread":true
+        ,"children":[
+            {
+                "title":"管理员管理"
+                ,"id": 11
+                ,"field":"User:index"
+            },
+            {
+                "title":"管理组管理"
+                ,"id": 12
+                ,"field":"Role:index"
+            },
+            {
+                "title":"日志管理"
+                ,"id": 13
+                ,"field":"Log:index"
+            }            
+        ]
+    },{
+        "title":"数据统计"
+        ,"id": 6
+        ,"field":"data"
+        ,"spread":true
+        ,"children":[
+            {
+                "title":"注册统计"
+                ,"id": 61
+                ,"field":"Data:register"
+            },{
+                "title":"充值统计"
+                ,"id": 62
+                ,"field":"Data:recharge"
+            },
+            {
+                "title":"提现统计"
+                ,"id": 63
+                ,"field":"Data:withdrawal"
+            }         
+        ]
+    },{
+        "title":"财务管理"
+        ,"id": 7
+        ,"field":"bank"
+        ,"spread":true
+                ,"children":[
+            {
+                "title":"提现管理"
+                ,"id": 71
+                ,"field":"Withdrawal:index"
+            },
+            {
+                "title":"银行管理"
+                ,"id": 73
+                ,"field":"Banks:index"
+            }         
+        ]
+    },
+     {
+        "title":"会员管理"
+        ,"id": 2
+        ,"field":"lottery"
+        ,"spread":true
+        ,"children":[
+            {
+                "title":"代理列表"
+                ,"id": 22
+                ,"field":"Agent:index"
+            },
+            {
+                "title":"会员列表"
+                ,"id": 21
+                ,"field":"Member:index"
+            }         
+        ]
+    },
+     {
+        "title":"彩票管理"
+        ,"id": 3
+        ,"field":"lottery"
+        ,"spread":true
+                ,"children":[
+            {
+                "title":"彩票分类"
+                ,"id": 31
+                ,"field":"Lotteryclass:index"
+            },
+            {
+                "title":"彩票列表"
+                ,"id": 32
+                ,"field":"Lottery:index"
+            },
+            {
+                "title":"开奖记录"
+                ,"id": 33
+                ,"field":"Openlottery:index"
+            },
+            {
+                "title":"投注记录"
+                ,"id": 34
+                ,"field":"Buylottery:index"
+            },
+            {
+                "title":"预设开奖"
+                ,"id": 35
+                ,"field":"Yulottery:index"
+            }          
+        ]
+    },
+     {
+        "title":"视频管理"
+        ,"id": 4
+        ,"field":"video"
+        ,"spread":true
+                ,"children":[
+            {
+                "title":"视频分类"
+                ,"id": 41
+                ,"field":"Videoclass:index"
+            },
+            {
+                "title":"视频列表"
+                ,"id": 42
+                ,"field":"Video:index"
+            }           
+        ]
+    },
+     {
+        "title":"系统管理"
+        ,"id": 5
+        ,"field":"system"
+        ,"spread":true
+                ,"children":[
+            {
+                "title":"视频分类"
+                ,"id": 51
+                ,"field":"System:index"
+            },
+            {
+                "title":"视频列表"
+                ,"id": 52
+                ,"field":"Notice:index"
+            },
+            {
+                "title":"广告配置"
+                ,"id": 53
+                ,"field":"Banner:index"
+            }           
+        ]
+    }
+]

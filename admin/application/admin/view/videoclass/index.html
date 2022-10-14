@@ -1,0 +1,276 @@
+{include file='public/meta' /}
+{include file='public/menu' /}
+{include file='public/head' /}
+
+<!--页面主要内容-->
+<main class="layout-content">
+<div class="container-fluid">
+<div class="row">
+      <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">分类名称</label>
+                            <div class="layui-input-inline">
+                              <input type="text" name="name" placeholder="请输入关键字搜索"  autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">分类状态</label>
+                                <div class="layui-input-inline">
+                                  <select name="status">
+                                    <option value="">请选择</option>
+                                    <option value="1">已开启</option>
+                                    <option value="0">已禁用</option>
+                                  </select>
+                                </div>                                
+                                <div class="layui-inline" id="time">
+                                    <label class="layui-form-label">起始时间</label>
+                                    <div class="layui-input-inline">
+                                        <input name="start_time" type="text" autocomplete="off" id="startDate" class="layui-input" placeholder="开始日期">
+                                    </div>
+                                    <label class="layui-form-label">结束时间</label>
+                                    <div class="layui-input-inline">
+                                        <input name="end_time" type="text" autocomplete="off" id="endDate" class="layui-input" placeholder="结束日期">
+                                    </div>  
+                                </div>    
+                            </div>                              
+
+                        </div>  
+                    </div>
+                    
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label"></label>
+                            <div class="layui-input-inline">
+                                <input class="layui-btn layui-btn-search" type="button" lay-submit="" lay-filter="submitSearch" value="检索">
+                                <button type="reset" class="layui-btn layui-btn-primary layui-border-orange">重置</button>
+                            </div>
+                        </div>
+                    </div>                    
+                </form>
+           </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <table style="height: 125px;" border="1" width="640" cellspacing="0" cellpadding="2" class="layui-hide" id="table" lay-filter="table"></table>
+          </div>
+        </div>
+      </div>
+</div>
+
+</div>
+
+</main>
+{include file='public/footer'/}
+<!--End 页面主要内容-->
+<script type="text/html" id="toolbar">
+  <div class="layui-btn-container">
+    <!--<button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
+    <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
+    <button class="layui-btn layui-btn-sm" lay-event="isAll">验证是否全选</button>-->
+    <button type="button" class="layui-btn layui-btn-sm" lay-event="add"><i class="layui-icon">&#xe654;</i>添加</button>
+    <button type="button" class="layui-btn layui-btn-sm layui-btn-danger"><i class="layui-icon">&#xe640;</i>删除</button>
+  </div>
+</script>
+ 
+<script type="text/html" id="bar">
+  <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+  <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<script>
+    layui.use(['table','element','form','layer','laydate'], function(){
+        var $ = layui.$, 
+        table = layui.table, 
+        form = layui.form, 
+        layer = layui.layer, 
+        laydate = layui.laydate;
+        laydate.render({
+            elem: '#time'
+            //设置开始日期、日期日期的 input 选择器
+            //数组格式为 2.6.6 开始新增，之前版本直接配置 true 或任意分割字符即可
+            ,range: ['#startDate', '#endDate']
+        });
+        function table_reload(field) {
+            layer.msg('请稍候！', { icon: 16 , shade: 0.01, time: 2000000});
+            table.reload('table', {
+                url: "{:url('list')}",
+                where: {
+                    name: field.name,
+                    status: field.status,
+                    start_time: field.start_time,
+                    end_time: field.end_time
+                }
+            });
+    
+            layer.close(layer.index);
+        }
+        form.on('submit(submitSearch)', function(data){
+            table_reload(data.field);
+        });
+        form.on('switch(status)', function(data){
+          var status = data.elem.checked ?1:0;
+          var id = data.elem.attributes['dataid'].nodeValue;
+          var index = layer.load(0, {shade: false});
+            $.ajax({
+                type: 'post',
+                url: "{:url('doEditStatus')}",
+                data:{id:id,status:status},
+                dataType:"json",
+                success: function(data) {
+                    if(data.code === 200){
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        });                      
+                    }else{
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        }); 
+                    }  
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    layer.closeAll();
+                    if (textStatus == "timeout") {
+                        layer.msg('请求超时！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });                      
+                    } else {
+                        layer.msg('服务器错误！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });                         
+                    }
+                },                    
+            });                  
+        });         
+        table.render({
+            elem: '#table',
+            url: "{:url('list')}"
+            ,toolbar: '#toolbar' // 开启头部工具栏，并为其绑定左侧模板
+            ,defaultToolbar: ['filter', 'exports', 'print']
+            ,title: '管理员列表'
+            ,cols: [[
+                {type: 'checkbox', fixed: 'left'},
+                {field:'id', title:'CID', fixed: 'left', unresize: true, sort: true,width:100},
+                {field:'sort', title:'排序', sort: true},
+                {field:'name', title:'分类名称'},
+                {field:'count', title:'类下视频数', sort: true},
+                {title:'状态', templet: function (d) {
+                    let checked = '';
+                    if (d.status == 1) {
+                        checked = 'checked';
+                    }else{
+                        checked = ' ';
+                    }
+                    return '<input type="checkbox" '+ checked +' name="status" dataid = "'+ d.id +'" lay-skin="switch" lay-filter="status" lay-text="开启|关闭">';
+                }},
+                {field:'create_time', title:'创建时间'},
+                {fixed: 'right', title:'操作', fixed: 'right', unresize: true, toolbar: '#bar'}
+            ]]
+            ,page: true
+        });
+  
+        //头工具栏事件
+        table.on('toolbar(table)', function(obj){
+            var checkStatus = table.checkStatus(obj.config.id);
+            switch(obj.event){
+                case 'getCheckData':
+                    var data = checkStatus.data;
+                    layer.alert(JSON.stringify(data));
+                    break;
+            case 'getCheckLength':
+                var data = checkStatus.data;
+                layer.msg('选中了：'+ data.length + ' 个');
+                break;
+            case 'isAll':
+                layer.msg(checkStatus.isAll ? '全选': '未全选');
+                break;
+            case 'add':
+                layer.open({
+                    type: 2,
+                    title: '添加管理组',
+                    shadeClose: true,
+                    shade: false,
+                    resize:true,
+                    maxmin: true, //开启最大化最小化按钮
+                    area: ['893px', '600px'],
+                    content: "{:url('operation')}"+"?operation=add"
+                });          
+                break;
+        };
+  });
+  
+  //监听行工具事件
+  table.on('tool(table)', function(obj){
+    var data = obj.data;
+    if(obj.event === 'del'){
+      layer.confirm('确认删除数据？', function(index){
+        $.ajax({
+            type: 'post',
+            url: "{:url('doDel')}",
+            data:{id:data.id},
+            dataType:"json",
+            success: function(data) {
+                if(data.code === 200){
+                    layer.msg(data.msg, {
+                      icon: 1,
+                      time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        obj.del();
+                        layer.close(index);
+                        table.reload('table');
+                    });                      
+                }else{
+                     layer.msg(data.msg);
+                }  
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                layer.closeAll();
+                if (textStatus == "timeout") {
+                    layer.msg('请求超时！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                    });                      
+                } else {
+                    layer.msg('服务器错误！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                    });                         
+                }
+            },                    
+        });        
+      });
+    } else if(obj.event === 'edit'){
+        layer.open({
+          type: 2,
+          title: '编辑商户',
+          shadeClose: true,
+          shade: false,
+          resize:true,
+          maxmin: true, //开启最大化最小化按钮
+          area: ['900px', '600px'],
+          content: "{:url('operation')}"+"?operation=edit&id="+obj.data.id
+        }); 
+    }
+  });
+});
+</script>
+

@@ -1,0 +1,96 @@
+    <aside class="layout-sidebar">
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="{:url('index/index')}">蜜獾娱乐</a>
+      </div>
+      <div class="layout-sidebar-scroll"> 
+        
+        <nav class="sidebar-main">
+          <ul class="nav nav-drawer">
+            <li class="nav-item {if Request::controller() == 'Index'} active {/if}"> <a href="{:url('index/index')}"><i class="mdi mdi-home"></i>首页</a></li>
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'Data'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-poll"></i>数据统计</a>
+              <ul class="nav nav-subnav">
+                <li><a href="{:url('data/register')}">注册统计</a></li>
+                <li><a href="{:url('data/recharge')}">充值统计</a></li>
+                <li><a href="{:url('data/withdrawal')}">提现统计</a></li>
+              </ul>
+            </li>   
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'Withdrawal' 
+            || Request::controller() == 'Banks'
+            } active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-bank"></i>财务管理</a>
+              <ul class="nav nav-subnav">
+                <li><a href="{:url('withdrawal/index')}">提现管理</a></li>
+                <li><a href="{:url('Banks/index')}">银行管理</a></li>
+              </ul>
+            </li>     
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'Log' || Request::controller() == 'User' || Request::controller() == 'Role'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-account"></i>超管管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="{:url('user/index')}">管理员管理</a></li>
+                <li> <a href="{:url('role/index')}">管理组管理</a> </li>
+                <li> <a href="{:url('log/index')}">日志管理</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item-has-subnav 
+            {if Request::controller()=='Member'
+            || Request::controller() == 'Agent'
+            } active open {/if}">
+                <a href="javascript:void(0)"><i class="mdi mdi-account-multiple"></i>会员管理</a>
+                <ul class="nav nav-subnav">
+                     <li> <a href="{:url('agent/index')}">代理列表</a></li>
+                     <li> <a href="{:url('member/index')}">会员列表</a></li>
+                </ul>
+            </li>            
+            <li class="nav-item nav-item-has-subnav 
+            {if Request::controller() == 'Lotteryclass' 
+            || Request::controller() == 'Lottery'
+            || Request::controller() == 'Openlottery'
+            || Request::controller() == 'Yulottery'
+            || Request::controller() == 'Buylottery'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-gamepad-variant"></i>彩票管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="{:url('lotteryclass/index')}">彩票分类</a></li>
+                <li> <a href="{:url('lottery/index')}">彩票列表</a></li>
+                <li> <a href="{:url('openlottery/index')}">开奖记录</a></li>
+                <li> <a href="{:url('buylottery/index')}">投注记录</a></li>
+                <li> <a href="{:url('Yulottery/index')}">预设开奖</a></li>
+              </ul>
+            </li>            
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'Video' || Request::controller() == 'Videoclass'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-video"></i>视频管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="{:url('videoclass/index')}">视频分类</a> </li>
+                <li> <a href="{:url('video/index')}">视频列表</a> </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'Xuanfei' || Request::controller() == 'Xuanfei'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-video"></i>选妃管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="{:url('xuanfei/xuanfeiaddress')}">选妃地区</a> </li>
+                <li> <a href="{:url('xuanfeilist/xuanfeilist')}">选妃列表</a> </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item nav-item-has-subnav {if Request::controller() == 'System' 
+            || Request::controller() == 'Notice'
+            || Request::controller() == 'Banner'} active open {/if}">
+              <a href="javascript:void(0)"><i class="mdi mdi-settings"></i>系统管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="{:url('system/index')}">基本配置</a> </li>
+                <li> <a href="{:url('notice/index')}">公告配置</a> </li>
+                <li> <a href="{:url('banner/index')}">广告配置</a> </li>
+              </ul>
+            </li>  
+          </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+          <p class="copyright">Copyright &copy; 2019.  All rights <a href="http://www.bootstrapmb.com/">reserved</a>. </p>
+        </div>
+      </div>
+      
+    </aside>
+    <!--End 左侧导航-->

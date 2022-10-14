@@ -1,0 +1,133 @@
+{include file='public/meta' /}
+
+<main class="layui-layout">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<h4>
+							{if $operation == 'add'}添加管理员{else/}编辑管理员{/if}
+						</h4>
+					</div>
+					<div class="card-body">
+						<form class="layui-form" id="loginfrom">
+						    <input type="hidden" id="id" name="id" value="{:isset($info.id)?$info.id:''}">
+							<div class="form-group">
+								<label>
+									管理员账号
+								</label>
+								<input class="form-control" type="text" id="username" name="username"
+								placeholder="请输入管理员账号" {if $operation == 'edit'}readonly="readonly"{/if} value="{:isset($info.username)?$info.username:''}">
+							</div>
+							<div class="form-group">
+								<label>
+									手机号
+								</label>
+								<input class="form-control" type="text" id="phone" name="phone"
+								placeholder="请输入手机号" value="{:isset($info.phone)?$info.phone:''}">
+							</div>
+							<div class="form-group">
+								<label>
+									管理员密码
+								</label>
+								<input class="form-control" type="text" id="password" name="password"
+								placeholder="请输入管理员密码" value="">
+							</div>
+							<div class="form-group">
+                                <label>
+                                    管理员组
+                                </label>
+                                <select id="rid" name="rid">
+                                  <option value="">请选择</option>
+                                  {foreach $class as $key=>$vo } 
+                                      <option value="{$vo.id}" {if $operation == 'edit'}{if $vo.id == $info.rid} selected="" {/if}{/if}>{$vo.name}</option>
+                                  {/foreach}                                
+                                </select>
+							</div>							
+							<div class="form-group">
+								<button class="layui-btn" type="button" lay-submit lay-filter="save">
+								    {if $operation == 'add'}提交{else/}更新{/if}	
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+{include file='public/onlyfooter'/}
+<script>
+
+layui.use(['form'], function(){
+  var layer = layui.layer
+  ,form = layui.form;
+   //监听提交
+  form.on('submit(save)', function(data){
+        var username = $('#username').val();
+        var password = $('#password').val();
+        var phone = $('#phone').val();
+        var rid = $('#rid').val();
+        if(username == "" || username == null || username == undefined){
+            layer.msg("请输入管理员账号");
+            return false;
+        }  
+        if(password == "" || password == null || password == undefined){
+            layer.msg("请输入管理员密码");
+            return false;
+        } 
+        if(phone == "" || phone == null || phone == undefined){
+            layer.msg("请输入管理员手机号");
+            return false;
+        } 
+        if(rid == "" || rid == null || rid == undefined){
+            layer.msg("请选择管理员分组");
+            return false;
+        } 
+        var loading = layer.load(0, {shade: false});
+        $.ajax({
+            type: 'post',
+            url: "{:url('doSave')}",
+            data:$("#loginfrom").serialize(),
+            dataType:"json",
+            success: function(data) {
+                if(data.code === 200){
+                    layer.msg(data.msg, {
+                      icon: 1,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        layer.closeAll();
+                        window.parent.location.reload();
+                        var index = parent.layer.getFrameIndex(window.name);
+                        parent.layer.close(index);
+                        
+                    });                      
+                }else{
+                     layer.msg(data.msg);
+                     return false;
+                }  
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                layer.closeAll();
+                if (textStatus == "timeout") {
+                    layer.msg('请求超时！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        return false;
+                    });                      
+                } else {
+                    layer.msg('服务器错误！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        return false;
+                    });                         
+                }
+            },                    
+        }); 
+    });
+});
+
+</script>

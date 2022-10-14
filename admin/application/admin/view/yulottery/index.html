@@ -1,0 +1,341 @@
+{include file='public/meta' /}
+{include file='public/menu' /}
+{include file='public/head' /}
+
+<!--页面主要内容-->
+<main class="layout-content">
+<div class="container-fluid">
+<div class="row">
+          <div class="card">
+            <div class="card-header"><h4>预设开奖</h4></div>
+            <div class="card-body">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">彩票名称</label>
+                        <div class="layui-input-inline">
+                            <select name="key">
+                              <option value="">请选择</option>
+                              {foreach $lottery as $key=>$vo } 
+                                  <option value="{$vo.key}">{$vo.name}</option>
+                              {/foreach}                                
+                            </select>
+                        </div>
+                        <div class="layui-inline">
+                            <label class="layui-form-label"></label>
+                            <div class="layui-input-inline">
+                                <input class="layui-btn layui-btn-search" id="search" type="button" lay-submit="" lay-filter="submitSearch" value="检索">
+                                <button type="reset" class="layui-btn layui-btn-primary layui-border-orange">重置</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+           </div>
+          </div>
+
+
+
+    <div class="layui-card-body">
+        <script type="text/html" id="toolbar">
+            <button type="button" class="layui-btn layui-btn-sm" lay-event="refresh"><i class="layui-icon">&#xe669;</i>刷新</button>
+            <button type="button" class="layui-btn layui-btn-sm" lay-event="all_save"><i class="layui-icon">&#xe716;</i>一键保存</button>
+        </script>
+        <table id="dataTable" lay-filter="dataTable"></table>
+        <script type="text/html" id="bar">
+            <a class="layui-btn layui-btn-xs" lay-event="save">保存</a>
+            <a class="layui-btn layui-btn-xs" lay-event="cancel">取消</a>
+        </script>
+    </div>
+
+</div>
+
+</div>
+
+</main>
+{include file='public/footer'/}
+<!--End 页面主要内容-->
+<!--<script type="text/html" id="bar">-->
+<!--  <a class="layui-btn layui-btn-xs" lay-event="save">保存</a>-->
+<!--  <a class="layui-btn layui-btn-xs" lay-event="cancel">取消</a>-->
+<!--</script>-->
+<!--End 页面主要内容-->
+
+<script>
+    layui.use(['table','element','form','layer','laydate'], function() {
+        var $ = layui.$,
+            table = layui.table,
+            form = layui.form,
+            layer = layui.layer,
+            laydate = layui.laydate;
+        laydate.render({
+            elem: '#time'
+            //设置开始日期、日期日期的 input 选择器
+            //数组格式为 2.6.6 开始新增，之前版本直接配置 true 或任意分割字符即可
+            , range: ['#startDate', '#endDate']
+        });
+
+        function table_reload(field) {
+            layer.msg('请稍候！', {icon: 16, shade: 0.01, time: 2000000});
+            table.reload('dataTable', {
+                url: "{:url('list')}",
+                where: {
+                    key: field.key,
+                }
+            });
+
+            layer.close(layer.index);
+        }
+
+        form.on('submit(submitSearch)', function (data) {
+            table_reload(data.field);
+        });
+        form.on('switch(state)', function (data) {
+            var state = data.elem.checked ? 1 : 0;
+            var id = data.elem.attributes['dataid'].nodeValue;
+            var index = layer.load(0, {shade: false});
+            $.ajax({
+                type: 'post',
+                url: "{:url('doEditState')}",
+                data: {id: id, state: state},
+                dataType: "json",
+                success: function (data) {
+                    if (data.code === 200) {
+                        layer.msg(data.msg, {
+                            icon: 1,
+                            time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function () {
+                            layer.closeAll();
+                            table.reload('table');
+                        });
+                    } else {
+                        layer.msg(data.msg, {
+                            icon: 1,
+                            time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function () {
+                            layer.closeAll();
+                            table.reload('table');
+                        });
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    layer.closeAll();
+                    if (textStatus == "timeout") {
+                        layer.msg('请求超时！', {
+                            icon: 2,
+                            time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function () {
+                        });
+                    } else {
+                        layer.msg('服务器错误！', {
+                            icon: 2,
+                            time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function () {
+                        });
+                    }
+                },
+            });
+        });
+        table.render({
+            elem: '#dataTable',
+            url: "{:url('list')}"
+            , toolbar: '#toolbar' // 开启头部工具栏，并为其绑定左侧模板
+            , defaultToolbar: ['filter', 'exports', 'print']
+            , title: '彩票列表'
+            , cols: [[
+                {type: 'checkbox', fixed: 'left'},
+                {field: 'name', title: '彩票名称'},
+                {field: 'key', title: '标识符', sort: true},
+                {field: 'expect', title: '期号', sort: true},
+                // {field: 'opencode', title: '开奖号码'},
+                {field:'opencode', title:'开奖号码',templet:function(d){return '<a href="#" style="color:red" lay-event="edit_lottery">'+d.opencode+'</a>';}},
+                {field: 'player', title: '操作人', sort: true},
+                {field: 'create_time', title: '开奖时间', sort: true},
+                {field: 'update_time', title: '保存时间', sort: true},
+                {fixed: 'right', title: '操作', width: 140, unresize: true, toolbar: '#bar'}
+            ]]
+            , page:true
+        });
+
+        //头工具栏事件
+        table.on('toolbar(dataTable)', function (obj) {
+            var checkStatus = table.checkStatus(obj.config.id);
+            switch (obj.event) {
+                case 'getCheckData':
+                    var data = checkStatus.data;
+                    layer.alert(JSON.stringify(data));
+                    break;
+                case 'getCheckLength':
+                    var data = checkStatus.data;
+                    layer.msg('选中了：' + data.length + ' 个');
+                    break;
+                case 'isAll':
+                    layer.msg(checkStatus.isAll ? '全选' : '未全选');
+                    break;
+                case 'refresh':
+                    table.reload('dataTable')
+                    break;
+                case 'all_save':
+                    layer.confirm('确认一键保存？', function (index) {
+                        var data = layui.table.cache["dataTable"];
+                        console.log(JSON.stringify(data));
+                        $.ajax({
+                            type: 'post',
+                            url: "{:url('doAllSave')}",
+                            data: {data: data},
+                            dataType: "json",
+                            success: function (data) {
+                                if (data.code === 200) {
+                                    layer.msg(data.msg, {
+                                        icon: 1,
+                                        time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                        table.reload('table');
+                                    });
+                                } else {
+                                    layer.close(index);
+                                    layer.msg(data.msg);
+                                }
+                            },
+                            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                layer.closeAll();
+                                if (textStatus == "timeout") {
+                                    layer.msg('请求超时！', {
+                                        icon: 2,
+                                        time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                    });
+                                } else {
+                                    layer.msg('服务器错误！', {
+                                        icon: 2,
+                                        time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                    });
+                                }
+                            },
+                        });
+                    });
+                    break;
+            }
+            ;
+        });
+
+        //监听行工具事件
+        table.on('tool(dataTable)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'save') {
+                layer.confirm('确认保存欲开奖？', function (index) {
+                    $.ajax({
+                        type: 'post',
+                        url: "{:url('doSave')}",
+                        data: data,
+                        dataType: "json",
+                        success: function (data) {
+                            if (data.code === 200) {
+                                layer.msg(data.msg, {
+                                    icon: 1,
+                                    time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                                }, function () {
+                                    layer.close(index);
+                                    // table.reload('table');
+                                    reloadView();
+                                });
+                            } else {
+                                layer.close(index);
+                                layer.msg(data.msg);
+                            }
+                        },
+                        error: function (XMLHttpRequest, textStatus, errorThrown) {
+                            layer.closeAll();
+                            if (textStatus == "timeout") {
+                                layer.msg('请求超时！', {
+                                    icon: 2,
+                                    time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                }, function () {
+                                    layer.close(index);
+                                });
+                            } else {
+                                layer.msg('服务器错误！', {
+                                    icon: 2,
+                                    time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                }, function () {
+                                    layer.close(index);
+                                });
+                            }
+                        },
+                    });
+                });
+            } else if (obj.event === 'cancel') {
+                layer.confirm('确认取消欲开奖？', function (index) {
+                    if (data.player == undefined) {
+                        layer.msg("取消失败，未保存欲开奖");
+                        return false
+                    } else {
+                        $.ajax({
+                            type: 'post',
+                            url: "{:url('doCancel')}",
+                            data: data,
+                            dataType: "json",
+                            success: function (data) {
+                                if (data.code === 200) {
+                                    layer.msg(data.msg, {
+                                        icon: 1,
+                                        time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                        // table.reload('table');
+                                        reloadView();
+                                    });
+                                } else {
+                                    layer.close(index);
+                                    layer.msg(data.msg);
+                                }
+                            },
+                            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                layer.closeAll();
+                                if (textStatus == "timeout") {
+                                    layer.msg('请求超时！', {
+                                        icon: 2,
+                                        time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                    });
+                                } else {
+                                    layer.msg('服务器错误！', {
+                                        icon: 2,
+                                        time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                                    }, function () {
+                                        layer.close(index);
+                                    });
+                                }
+                            },
+                        });
+                    }
+                });
+            }else if (obj.event === 'edit_lottery') {
+                console.log(data)
+                layer.open({
+                    type: 2,
+                    title: '编辑商户',
+                    shadeClose: true,
+                    shade: false,
+                    resize:true,
+                    maxmin: true, //开启最大化最小化按钮
+                    area: ['900px', '600px'],
+
+                    content: "{:url('edit_lottery')}"+"?name="+obj.data.name+"&key="+obj.data.key+"&opencode="+obj.data.opencode+"&expect="+obj.data.expect+"&create_time="+obj.data.create_time
+                });
+            }
+        });
+
+    });
+
+
+    window.reloadView = function () {
+        // window.location.reload();
+        $('#search').click();
+    }
+
+    setInterval('reloadView()',180000);
+</script>

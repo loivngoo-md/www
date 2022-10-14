@@ -1,0 +1,429 @@
+{include file='public/meta' /}
+{include file='public/menu' /}
+{include file='public/head' /}
+<!--页面主要内容-->
+<main class="layout-content">
+<div class="container-fluid">
+<div class="row">
+      <div class="col-lg-12">
+          <div class="card">
+            <div class="card-body">
+                <form class="layui-form" action="">
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label">会员名称</label>
+                            <div class="layui-input-inline">
+                              <input type="text" name="username" placeholder="请输入关键字搜索"  autocomplete="off" class="layui-input">
+                            </div>
+
+
+                                <label class="layui-form-label">IP</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="ip" placeholder="请输入IP"  autocomplete="off" class="layui-input">
+                                </div>
+                               <label class="layui-form-label">会员状态</label>
+                                <div class="layui-input-inline">
+                                  <select name="status">
+                                    <option value="">请选择</option>
+                                    <option value="1">已开启</option>
+                                    <option value="0">已禁用</option>
+                                  </select>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">所属代理</label>
+                                    <div class="layui-input-inline">
+                                        <select name="uid">
+                                            <option value="">请选择</option>
+                                            {volist name="userlist" id="vo"}
+                                            <option value="{$vo.id}">{$vo.username}</option>
+                                            {/volist}
+
+                                        </select>
+                                    </div>
+                                <div class="layui-inline" id="time">
+                                    <label class="layui-form-label">起始时间</label>
+                                    <div class="layui-input-inline">
+                                        <input name="start_time" type="text" autocomplete="off" id="startDate" class="layui-input" placeholder="开始日期">
+                                    </div>
+                                    <label class="layui-form-label">结束时间</label>
+                                    <div class="layui-input-inline">
+                                        <input name="end_time" type="text" autocomplete="off" id="endDate" class="layui-input" placeholder="结束日期">
+                                    </div>  
+
+                            </div>                              
+
+                        </div>  
+                    </div>
+                    <!--<div class="layui-form-item">-->
+                    <!--    <div class="layui-inline">-->
+                    <!--        <label class="layui-form-label">手机号</label>-->
+                    <!--        <div class="layui-input-inline">-->
+                    <!--          <input type="text" name="phone" placeholder="请输入关键字搜索"  autocomplete="off" class="layui-input">-->
+                    <!--        </div>-->
+                    <!--    </div>  -->
+                    <!--</div>                    -->
+                    <div class="layui-form-item">
+                        <div class="layui-inline">
+                            <label class="layui-form-label"></label>
+                            <div class="layui-input-inline">
+                                <input class="layui-btn layui-btn-search" type="button" lay-submit="" lay-filter="submitSearch" value="检索">
+                                <button type="reset" class="layui-btn layui-btn-primary layui-border-orange">重置</button>
+                            </div>
+                        </div>
+                    </div>                    
+                </form>
+           </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <table style="height: 125px;" border="1" width="640" cellspacing="0" cellpadding="2" class="layui-hide" id="table" lay-filter="table"></table>
+          </div>
+        </div>
+      </div>
+</div>
+
+</div>
+
+</main>
+{include file='public/footer'/}
+<!--End 页面主要内容-->
+<script type="text/html" id="toolbar">
+  <div class="layui-btn-container">
+    <!--<button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
+    <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
+    <button class="layui-btn layui-btn-sm" lay-event="isAll">验证是否全选</button>-->
+    <button type="button" class="layui-btn layui-btn-sm" lay-event="add"><i class="layui-icon">&#xe654;</i>添加</button>
+    <button type="button" class="layui-btn layui-btn-sm layui-btn-danger"><i class="layui-icon">&#xe640;</i>删除</button>
+  </div>
+</script>
+ 
+<script type="text/html" id="bar">
+  <a class="layui-btn layui-btn-xs" lay-event="ti">踢</a>
+  <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+  <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<script>
+    layui.use(['table','element','form','layer','laydate'], function(){
+        var $ = layui.$, 
+        table = layui.table, 
+        form = layui.form, 
+        layer = layui.layer, 
+        laydate = layui.laydate;
+        laydate.render({
+            elem: '#time'
+            //设置开始日期、日期日期的 input 选择器
+            //数组格式为 2.6.6 开始新增，之前版本直接配置 true 或任意分割字符即可
+            ,range: ['#startDate', '#endDate']
+        });
+        function table_reload(field) {
+            layer.msg('请稍候！', { icon: 16 , shade: 0.01, time: 2000000});
+            table.reload('table', {
+                url: "{:url('list')}",
+                where: {
+                    phone: field.phone,
+                    uid: field.uid,
+                    ip:field.ip,
+                    username: field.username,
+                    status: field.status,
+                    start_time: field.start_time,
+                    end_time: field.end_time
+                }
+            });
+    
+            layer.close(layer.index);
+        }
+        form.on('submit(submitSearch)', function(data){
+            table_reload(data.field);
+        });
+        form.on('switch(state)', function(data){
+          var state = data.elem.checked ?1:0;
+          var id = data.elem.attributes['dataid'].nodeValue;
+          var index = layer.load(0, {shade: false});
+            $.ajax({
+                type: 'post',
+                url: "{:url('doEditState')}",
+                data:{id:id,state:state},
+                dataType:"json",
+                success: function(data) {
+                    if(data.code === 200){
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        });                      
+                    }else{
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        }); 
+                    }  
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    layer.closeAll();
+                    if (textStatus == "timeout") {
+                        layer.msg('请求超时！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });                      
+                    } else {
+                        layer.msg('服务器错误！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });                         
+                    }
+                },                    
+            });                  
+        });         
+        table.render({
+            elem: '#table',
+            url: "{:url('list')}"
+            ,toolbar: '#toolbar' // 开启头部工具栏，并为其绑定左侧模板
+            ,defaultToolbar: ['filter', 'exports', 'print']
+            ,title: '管理员列表'
+            ,cols: [[
+                {type: 'checkbox', fixed: 'left'},
+                {field:'id', title:'MID', fixed: 'left', unresize: true, sort: true,width:100},
+                {field:'username', title:'账号'},
+                {field:'daili', title:'所属代理'},
+                {field:'name', title:'姓名'},
+                {field:'sex', title:'性别'},
+                {field:'num', title:'提现次数'},
+                {field:'min', title:'提现最少金额'},
+                {field:'max', title:'提现最多金额'},
+                {field:'header_img', title:'头像',width:70,templet:function(d){return '<a class="layui-btn layui-btn-xs" lay-event="open_ico">查看</a>';}},
+                {title:'状态', templet: function (d) {
+                    let checked = '';
+                    if (d.status == 1) {
+                        checked = 'checked';
+                    }else{
+                        checked = ' ';
+                    }
+                    return '<input type="checkbox" '+ checked +' name="status" dataid = "'+ d.id +'" lay-skin="switch" lay-filter="status" lay-text="开启|关闭">';
+                }},                
+                {field:'money', title:'余额',templet:function(d){return '<a href="#" style="color:red" lay-event="add_money">'+d.money+'</a>';}},
+                {field:'amount_code', title:'打码量',templet:function(d){return '<a href="#" style="color:red" lay-event="add_amount_code">'+d.amount_code+'</a>';}},
+                {field:'area', title:'地区'},
+                {field:'ip', title:'IP'},
+                {field:'last_time', title:'上次登陆'}, 
+                {field:'create_time', title:'注册时间'},                 
+                {fixed: 'right', title:'操作', fixed: 'right', unresize: true, toolbar: '#bar',width:200}
+            ]]
+            ,page: true
+        });
+        form.on('switch(status)', function(data){
+          var status = data.elem.checked ?1:0;
+          var id = data.elem.attributes['dataid'].nodeValue;
+          var index = layer.load(0, {shade: false});
+            $.ajax({
+                type: 'post',
+                url: "{:url('doEditStatus')}",
+                data:{id:id,status:status},
+                dataType:"json",
+                success: function(data) {
+                    if(data.code === 200){
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        });                      
+                    }else{
+                        layer.msg(data.msg, {
+                          icon: 1,
+                          time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                            table.reload('table');
+                        }); 
+                    }  
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    layer.closeAll();
+                    if (textStatus == "timeout") {
+                        layer.msg('请求超时！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                        });                      
+                    } else {
+                        layer.msg('服务器错误！', {
+                          icon: 2,
+                          time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.closeAll();
+                        });                         
+                    }
+                },                    
+            });                  
+        });
+        //头工具栏事件
+        table.on('toolbar(table)', function(obj){
+            var checkStatus = table.checkStatus(obj.config.id);
+            switch(obj.event){
+                case 'getCheckData':
+                    var data = checkStatus.data;
+                    layer.alert(JSON.stringify(data));
+                    break;
+            case 'getCheckLength':
+                var data = checkStatus.data;
+                layer.msg('选中了：'+ data.length + ' 个');
+                break;
+            case 'isAll':
+                layer.msg(checkStatus.isAll ? '全选': '未全选');
+                break;
+            case 'add':
+                layer.open({
+                    type: 2,
+                    title: '添加用户',
+                    shadeClose: true,
+                    shade: false,
+                    resize:true,
+                    maxmin: true, //开启最大化最小化按钮
+                    area: ['893px', '600px'],
+                    content: "{:url('operation')}"+"?operation=add"
+                });          
+                break;
+        };
+  });
+  
+  //监听行工具事件
+  table.on('tool(table)', function(obj){
+    var data = obj.data;
+    if(obj.event === 'del'){
+      layer.confirm('确认删除数据？', function(index){
+        $.ajax({
+            type: 'post',
+            url: "{:url('doDel')}",
+            data:{id:data.id},
+            dataType:"json",
+            success: function(data) {
+                if(data.code === 200){
+                    layer.msg(data.msg, {
+                      icon: 1,
+                      time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                        obj.del();
+                        layer.close(index);
+                        table.reload('table');
+                    });                      
+                }else{
+                     layer.msg(data.msg);
+                }  
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                layer.closeAll();
+                if (textStatus == "timeout") {
+                    layer.msg('请求超时！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                    });                      
+                } else {
+                    layer.msg('服务器错误！', {
+                      icon: 2,
+                      time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                    }, function(){
+                    });                         
+                }
+            },                    
+        });        
+      });
+    } else if(obj.event === 'edit'){
+        layer.open({
+          type: 2,
+          title: '编辑商户',
+          shadeClose: true,
+          shade: false,
+          resize:true,
+          maxmin: true, //开启最大化最小化按钮
+          area: ['900px', '600px'],
+          content: "{:url('operation')}"+"?operation=edit&id="+obj.data.id
+        }); 
+    }else if(obj.event === 'open_ico'){
+        layer.open({
+          type: 1,
+          title: false,
+          closeBtn: 0,
+          area: ['auto'],
+          skin: 'layui-layer-nobg', //没有背景色
+          shadeClose: true,
+          content: "<img style='width:300px;height:300px' src='"+obj.data.header_img+"'>"
+        });
+    }else if(obj.event === 'add_money'){
+        layer.open({
+          type: 2,
+          title: '编辑商户',
+          shadeClose: true,
+          shade: false,
+          resize:true,
+          maxmin: true, //开启最大化最小化按钮
+          area: ['900px', '600px'],
+          content: "{:url('addmoney')}"+"?id="+obj.data.id
+        });       
+    }else if(obj.event === 'add_amount_code'){
+        layer.open({
+            type: 2,
+            title: '编辑打码量',
+            shadeClose: true,
+            shade: false,
+            resize:true,
+            maxmin: true, //开启最大化最小化按钮
+            area: ['900px', '600px'],
+            content: "{:url('addAmountCode')}"+"?id="+obj.data.id
+        });
+    }else if(obj.event === 'ti'){
+        layer.confirm('确认踢下线吗？', function(index){
+            $.ajax({
+                type: 'post',
+                url: "{:url('doTi')}",
+                data:{id:data.id},
+                dataType:"json",
+                success: function(data) {
+                    if(data.code === 200){
+                        layer.msg(data.msg, {
+                            icon: 1,
+                            time: 1000 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            layer.close(index);
+                            // table.reload('table');
+                        });
+                    }else{
+                        layer.msg(data.msg);
+                    }
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    layer.closeAll();
+                    if (textStatus == "timeout") {
+                        layer.msg('请求超时！', {
+                            icon: 2,
+                            time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });
+                    } else {
+                        layer.msg('服务器错误！', {
+                            icon: 2,
+                            time: 1500 //2秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                        });
+                    }
+                },
+            });
+        });
+    }
+  });
+});
+</script>
+
