@@ -1,0 +1,49 @@
+version: "3"
+
+services:
+  nginx:
+    dns:
+      - 8.8.8.8
+      - 4.4.4.4
+    image:  'nginx:stable-alpine'
+    working_dir: /var/www/html
+    container_name: real_nginx
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+      - ./logs/nginx_log:/var/log/nginx
+      - ./docker/config/nginx/nginx.conf:/etc/nginx/conf.d/nginx.conf
+    links:
+      - php
+      - mysql
+
+  php:
+    build:
+      context: ./docker
+      dockerfile: php.Dockerfile
+    container_name: real_php
+    volumes:
+      - .:/var/www/html
+      - ./logs/php-fpm/php-fpm.log:/var/log/php-fpm.log
+      - ./config/php-fpm/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+
+  php-fpm:
+    image: otezvikentiy/php7.2-fpm:0.0.11
+    ports:
+        - '9000:9000'
+    volumes:
+        - ../:/app
+    working_dir: /app
+    container_name: 'php-fpm'
+
+  mysql:
+    platform: linux/x86_64 
+    image: mysql:5.7
+    container_name: real_mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password

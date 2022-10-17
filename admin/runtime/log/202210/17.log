@@ -1,0 +1,3600 @@
+---------------------------------------------------------------
+
+[2022-10-17T16:28:52+08:00] 127.0.0.1 GET localhost:8083/
+[运行时间：0.039782s] [吞吐率：25.14req/s] [内存消耗：263.52kb] [文件加载：41]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ error ] [0]致命错误: Call to undefined method think\facade\Route::get()[/Users/loivngoo/lvn/php/www/admin/route/route.php:15]
+---------------------------------------------------------------
+
+[2022-10-17T16:29:15+08:00] 127.0.0.1 GET localhost:8083/
+[运行时间：0.072389s] [吞吐率：13.81req/s] [内存消耗：885.57kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-10-17T16:29:15+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.013586s] [吞吐率：73.60req/s] [内存消耗：771.23kb] [文件加载：94]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:30:20+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.006104s] [吞吐率：163.83req/s] [内存消耗：750.81kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:30:20+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.004758s] [吞吐率：210.18req/s] [内存消耗：750.70kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:30:20+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.003454s] [吞吐率：289.52req/s] [内存消耗：750.70kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:30:28+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.064609s] [吞吐率：15.48req/s] [内存消耗：922.76kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:30:37+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.009042s] [吞吐率：110.59req/s] [内存消耗：857.16kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:31:10+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.011902s] [吞吐率：84.02req/s] [内存消耗：749.55kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:31:20+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.009817s] [吞吐率：101.87req/s] [内存消耗：857.16kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:31:33+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.007664s] [吞吐率：130.48req/s] [内存消耗：857.16kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '29',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:31:36+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.005196s] [吞吐率：192.45req/s] [内存消耗：749.55kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:33:14+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.007875s] [吞吐率：126.98req/s] [内存消耗：749.95kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:34:20+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.023576s] [吞吐率：42.42req/s] [内存消耗：770.10kb] [文件加载：94]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:34:30+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.011072s] [吞吐率：90.32req/s] [内存消耗：857.16kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:36:51+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.014274s] [吞吐率：70.06req/s] [内存消耗：857.16kb] [文件加载：96]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2054]SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+
+[2022-10-17T16:38:17+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.008455s] [吞吐率：118.27req/s] [内存消耗：750.05kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:38:18+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.003481s] [吞吐率：287.28req/s] [内存消耗：749.55kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/login/index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2022-10-17T16:38:28+08:00] 127.0.0.1 POST localhost:8083/admin/login/dologin
+[运行时间：0.821881s] [吞吐率：1.22req/s] [内存消耗：932.47kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://localhost:8083',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'content-length' => '30',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.226554s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.145922s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.147190s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `last_time` = 1665995908 , `ip` = '127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.144509s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:38:30+08:00] 127.0.0.1 GET localhost:8083/admin/login/index/
+[运行时间：0.010560s] [吞吐率：94.70req/s] [内存消耗：765.46kb] [文件加载：92]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2022-10-17T16:38:31+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.850656s] [吞吐率：1.18req/s] [内存消耗：1,103.79kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.225785s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.149859s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.152098s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150761s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.152314s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:38:31+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.021237s] [吞吐率：47.09req/s] [内存消耗：229.12kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:39:27+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.801788s] [吞吐率：1.25req/s] [内存消耗：980.68kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.213057s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.144586s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.143320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.142299s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.143785s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:39:29+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.826037s] [吞吐率：1.21req/s] [内存消耗：979.46kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223348s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.148127s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.146725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.146270s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.149556s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:39:29+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.005366s] [吞吐率：186.36req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:40:18+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.826799s] [吞吐率：1.21req/s] [内存消耗：980.79kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216977s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.148505s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.147400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150050s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.147142s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:40:18+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.005107s] [吞吐率：195.81req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:41:16+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.997234s] [吞吐率：1.00req/s] [内存消耗：980.09kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/login/index/',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.275025s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.177246s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.176912s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.179245s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.176245s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:41:16+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.004817s] [吞吐率：207.60req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:41:43+08:00] 127.0.0.1 GET localhost:8083/admin/banks/index/
+[运行时间：1.053096s] [吞吐率：0.95req/s] [内存消耗：1,095.55kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/banks/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.277013s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.187014s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.187065s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.195981s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.186922s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:41:43+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.003653s] [吞吐率：273.74req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:41:49+08:00] 127.0.0.1 GET localhost:8083/admin/banks/list?page=1&limit=10
+[运行时间：5.479078s] [吞吐率：0.18req/s] [内存消耗：1,125.24kb] [文件加载：94]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/banks/index/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.256970s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_log` [ RunTime:0.173162s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.173487s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.173459s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.173089s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank_bind` [ RunTime:0.173252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank_bind` [ RunTime:0.175086s ]
+[ sql ] [ SQL ] SELECT * FROM `bank_bind` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.173113s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `member` [ RunTime:0.176389s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6762 LIMIT 1 [ RunTime:0.173412s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6762 LIMIT 1 [ RunTime:0.171269s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6695 LIMIT 1 [ RunTime:0.172864s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6695 LIMIT 1 [ RunTime:0.170954s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6507 LIMIT 1 [ RunTime:0.173538s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6507 LIMIT 1 [ RunTime:0.174087s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6843 LIMIT 1 [ RunTime:0.171501s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6843 LIMIT 1 [ RunTime:0.173131s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6719 LIMIT 1 [ RunTime:0.174103s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6719 LIMIT 1 [ RunTime:0.177013s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6926 LIMIT 1 [ RunTime:0.172303s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6926 LIMIT 1 [ RunTime:0.171587s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6919 LIMIT 1 [ RunTime:0.172429s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6919 LIMIT 1 [ RunTime:0.172471s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6921 LIMIT 1 [ RunTime:0.171653s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6921 LIMIT 1 [ RunTime:0.177851s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6922 LIMIT 1 [ RunTime:0.173482s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6922 LIMIT 1 [ RunTime:0.173155s ]
+[ sql ] [ SQL ] SELECT `username` FROM `member` WHERE  `id` = 6920 LIMIT 1 [ RunTime:0.173128s ]
+[ sql ] [ SQL ] SELECT `name` FROM `member` WHERE  `id` = 6920 LIMIT 1 [ RunTime:0.172171s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:41:50+08:00] 127.0.0.1 GET localhost:8083/admin/banks/index/favicon.ico
+[运行时间：5.419351s] [吞吐率：0.18req/s] [内存消耗：979.27kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/banks/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/banks/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.222763s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.149904s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.154673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.152530s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.150788s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:43:09+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.975564s] [吞吐率：1.03req/s] [内存消耗：979.77kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.262414s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.174338s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.173309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.171931s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.172511s ]
+---------------------------------------------------------------
+
+[2022-10-17T16:43:09+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.013571s] [吞吐率：73.69req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T16:43:10+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.953297s] [吞吐率：1.05req/s] [内存消耗：978.30kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.256224s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.169786s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.172034s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.170968s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.177513s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:07:40+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.603288s] [吞吐率：0.62req/s] [内存消耗：993.96kb] [文件加载：94]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.280738s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.191290s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.209058s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.200170s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.249448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.238369s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.220443s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:07:46+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.406980s] [吞吐率：0.71req/s] [内存消耗：992.65kb] [文件加载：94]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.285544s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.200441s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.153425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.183835s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.192387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.175958s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.201601s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:07:52+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.814834s] [吞吐率：1.23req/s] [内存消耗：991.63kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.212874s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.146592s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.142427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.146725s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146361s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:07:53+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.006139s] [吞吐率：162.89req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:07:54+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.969729s] [吞吐率：1.03req/s] [内存消耗：989.62kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.260009s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.176832s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.175652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.174107s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175366s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:44:51+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.369495s] [吞吐率：0.73req/s] [内存消耗：1,133.17kb] [文件加载：105]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 0,
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.260213s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.179160s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.176050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.178689s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.179001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.177305s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.177376s ]
+[ error ] [8]未定义变量: response[/Users/loivngoo/lvn/php/www/admin/runtime/temp/26a41738c83893494439b34a60b34051.php:438]
+---------------------------------------------------------------
+
+[2022-10-17T17:45:22+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.125286s] [吞吐率：0.89req/s] [内存消耗：1,065.28kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216250s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.144556s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.153930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.143764s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.153373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.148153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143247s ]
+[ error ] [0]模板文件不存在:/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/581.html[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+
+[2022-10-17T17:52:35+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.001845s] [吞吐率：1.00req/s] [内存消耗：1,057.86kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.266250s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.176266s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.180021s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.188600s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.177330s ]
+[ error ] [0]模板文件不存在:/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+
+[2022-10-17T17:52:37+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.831861s] [吞吐率：1.20req/s] [内存消耗：1,056.73kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.222637s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147324s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.150742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150364s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.149752s ]
+[ error ] [0]模板文件不存在:/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+
+[2022-10-17T17:52:44+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.991894s] [吞吐率：1.01req/s] [内存消耗：1,056.75kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.264338s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.176393s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.189978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.174474s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175639s ]
+[ error ] [0]模板文件不存在:/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+
+[2022-10-17T17:52:57+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.421916s] [吞吐率：0.70req/s] [内存消耗：1,152.24kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.222802s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147909s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.146127s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.144309s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.151121s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145171s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.145499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.152160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.145052s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:52:59+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.394996s] [吞吐率：0.72req/s] [内存消耗：1,028.17kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217632s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147382s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.144214s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.149230s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.144770s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146072s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.146029s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.144151s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:53:09+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.006722s] [吞吐率：148.77req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:53:12+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.414920s] [吞吐率：0.71req/s] [内存消耗：1,152.24kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219238s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.157756s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.149193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.144299s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.144563s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.146725s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.145412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.147207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.146145s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:53:12+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002047s] [吞吐率：488.51req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:53:14+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.669724s] [吞吐率：0.60req/s] [内存消耗：1,028.17kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.255647s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.171050s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.173837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.171083s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.172546s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.172685s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.172289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.173869s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.190983s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:53:36+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.979671s] [吞吐率：1.02req/s] [内存消耗：1,056.73kb] [文件加载：99]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.261903s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.177789s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.175813s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.175207s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.179146s ]
+[ error ] [0]模板文件不存在:/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/view/driver/Think.php:86]
+---------------------------------------------------------------
+
+[2022-10-17T17:54:59+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.978390s] [吞吐率：1.02req/s] [内存消耗：1,114.61kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.259227s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.176756s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.172088s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.171020s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.179383s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:54:59+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.007343s] [吞吐率：136.19req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:55:00+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.812129s] [吞吐率：1.23req/s] [内存消耗：990.55kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216293s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.146136s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145781s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146980s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:55:07+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.001735s] [吞吐率：1.00req/s] [内存消耗：1,125.33kb] [文件加载：105]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.266058s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.175451s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.190302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.177754s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175675s ]
+[ error ] [8]未定义变量: data[/Users/loivngoo/lvn/php/www/admin/runtime/temp/26a41738c83893494439b34a60b34051.php:331]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:00+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.999810s] [吞吐率：1.00req/s] [内存消耗：1,114.91kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.269273s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.174091s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.175274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.176071s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.178820s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:00+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002433s] [吞吐率：411.00req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:57:01+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.950479s] [吞吐率：1.05req/s] [内存消耗：990.55kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258279s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.171339s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.169389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.170124s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.174248s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:18+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.815953s] [吞吐率：1.23req/s] [内存消耗：991.43kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.221579s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.145424s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.143747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.144391s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.145963s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:18+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.001655s] [吞吐率：604.28req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:57:19+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.811100s] [吞吐率：1.23req/s] [内存消耗：989.63kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217101s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.145753s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.147735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145356s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.148001s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:37+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.825530s] [吞吐率：1.21req/s] [内存消耗：1,114.61kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.220083s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.145245s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.147651s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.149075s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:37+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.005030s] [吞吐率：198.80req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:57:38+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.841051s] [吞吐率：1.19req/s] [内存消耗：990.55kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223004s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147283s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.158558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150322s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.153975s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:53+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：0.849242s] [吞吐率：1.18req/s] [内存消耗：1,114.63kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.227299s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.153393s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.148451s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.148494s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.155011s ]
+---------------------------------------------------------------
+
+[2022-10-17T17:57:53+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.019317s] [吞吐率：51.77req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T17:57:54+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：0.803555s] [吞吐率：1.24req/s] [内存消耗：990.54kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.214044s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.149529s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.143801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.142899s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146094s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:07:45+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.532655s] [吞吐率：0.65req/s] [内存消耗：1,122.33kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.253411s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.222657s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.314613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.169740s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.172802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.171338s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.204310s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:07:45+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.003064s] [吞吐率：326.38req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:07:47+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.188591s] [吞吐率：0.84req/s] [内存消耗：997.85kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219622s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147814s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.146995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.180836s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.172835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.156270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.147636s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:08:00+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.175890s] [吞吐率：0.85req/s] [内存消耗：1,121.92kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.263834s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147431s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.146826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.156178s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.150134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.147081s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.146518s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:08:00+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002157s] [吞吐率：463.61req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:08:01+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.329918s] [吞吐率：0.75req/s] [内存消耗：997.85kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258193s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.178350s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.179106s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.177412s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.174896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.175091s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.173976s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:08:16+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.115921s] [吞吐率：0.90req/s] [内存消耗：998.87kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223009s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.144904s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.144501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.143652s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.155481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.148293s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143585s ]
+[ error ] [0]variable type error： array[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+
+[2022-10-17T18:08:57+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.123086s] [吞吐率：0.89req/s] [内存消耗：997.84kb] [文件加载：97]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216950s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.146100s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.154017s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145359s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.152400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.146431s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.146146s ]
+[ error ] [0]variable type error： array[/Users/loivngoo/lvn/php/www/admin/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+
+[2022-10-17T18:18:24+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.361619s] [吞吐率：0.73req/s] [内存消耗：999.32kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.267678s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.177966s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.178334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.180130s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.179977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.179816s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.177997s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:18:24+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.009913s] [吞吐率：100.88req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:18:25+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.114188s] [吞吐率：0.90req/s] [内存消耗：996.96kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218044s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.147984s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.149436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.146452s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.148322s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.145206s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:18:38+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.305564s] [吞吐率：0.77req/s] [内存消耗：1,122.20kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.256703s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.170324s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.175580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.168901s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.169881s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.173258s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.171483s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:18:39+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：2.216639s] [吞吐率：0.45req/s] [内存消耗：999.02kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218756s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.155062s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.148823s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.144744s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.144003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.150522s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:18:39+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.015561s] [吞吐率：64.26req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:18:40+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.311446s] [吞吐率：0.76req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.255873s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.172702s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.171064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.172907s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.175588s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.173495s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:19:15+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.316781s] [吞吐率：0.76req/s] [内存消耗：999.32kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.254333s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.171509s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.170579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.170367s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.171909s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.176914s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.169728s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:19:15+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.007163s] [吞吐率：139.61req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:19:58+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.360458s] [吞吐率：0.74req/s] [内存消耗：999.32kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.267674s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.178556s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.178084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.181475s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.178989s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.179539s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.182061s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:19:58+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.010149s] [吞吐率：98.53req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:22:13+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.127630s] [吞吐率：0.89req/s] [内存消耗：999.21kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.226456s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.144568s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.147488s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150584s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.147924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.145059s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.142200s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:22:13+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002487s] [吞吐率：402.06req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:25:43+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.332378s] [吞吐率：0.75req/s] [内存消耗：998.10kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.266298s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.172651s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.171226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.176110s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.173685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.175530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.172081s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:25:43+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.009103s] [吞吐率：109.86req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:27:27+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.332318s] [吞吐率：0.75req/s] [内存消耗：1,122.20kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.262307s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.178157s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.172547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.174314s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.177009s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.174079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.171874s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:27:27+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.010030s] [吞吐率：99.70req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:28:37+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.100611s] [吞吐率：0.91req/s] [内存消耗：999.02kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218456s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.144110s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.141949s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.143234s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.147637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.142479s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143993s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:28:37+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.008709s] [吞吐率：114.82req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:28:41+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.328459s] [吞吐率：0.75req/s] [内存消耗：998.10kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.262198s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.179987s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.172306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.174475s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.177817s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.174999s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:28:41+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.001762s] [吞吐率：567.49req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:28:54+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.111942s] [吞吐率：0.90req/s] [内存消耗：1,122.20kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.215134s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.143266s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.144668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.146291s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.154304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.141213s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:28:54+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.005534s] [吞吐率：180.70req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:29:11+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.109208s] [吞吐率：0.90req/s] [内存消耗：999.02kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.221296s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.143517s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145144s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145791s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.143156s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.143790s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.144062s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:29:11+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002011s] [吞吐率：497.31req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:31:04+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.257798s] [吞吐率：0.80req/s] [内存消耗：999.21kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.213987s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.160603s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.194779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.151612s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.164319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.172512s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.175708s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:31:04+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.007470s] [吞吐率：133.87req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:31:08+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.342845s] [吞吐率：0.74req/s] [内存消耗：998.10kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.272685s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.173872s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.174884s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.176615s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.180483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.177556s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.174216s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:31:08+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002024s] [吞吐率：494.09req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:32:57+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.158323s] [吞吐率：0.86req/s] [内存消耗：1,122.50kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.227611s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.148645s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.148080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.153327s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.149262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.152040s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.147255s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:32:58+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.007563s] [吞吐率：132.22req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:34:01+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.184837s] [吞吐率：0.84req/s] [内存消耗：1,122.50kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.235778s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.159916s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.156178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.151740s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.151928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.151053s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.148382s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:34:01+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.014380s] [吞吐率：69.54req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:34:03+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.325848s] [吞吐率：0.75req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.261921s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.175600s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.174360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.174069s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.175109s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.179697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.175192s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:34:16+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.364488s] [吞吐率：0.73req/s] [内存消耗：1,122.32kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.271775s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.177076s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.178080s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.178422s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.179695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.185270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.179012s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:34:16+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.002086s] [吞吐率：479.35req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:34:17+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.133813s] [吞吐率：0.88req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.220118s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.154616s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.149234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.148395s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.152009s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.151899s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.148137s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:34:29+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.214482s] [吞吐率：0.82req/s] [内存消耗：1,122.32kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.235146s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.166751s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.165138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.157143s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.162183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.152325s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.150655s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:34:29+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.001642s] [吞吐率：609.02req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:34:30+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.110463s] [吞吐率：0.90req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.221122s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.146786s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.147764s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.146038s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.145724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.147540s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.146931s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:35:51+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.144498s] [吞吐率：0.87req/s] [内存消耗：1,122.73kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.222262s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.150873s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.149334s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.147918s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.147867s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143839s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:35:51+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.018818s] [吞吐率：53.14req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:35:52+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.350270s] [吞吐率：0.74req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.267579s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.177375s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.177110s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.176252s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.176199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.176451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.177476s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:36:25+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.114664s] [吞吐率：0.90req/s] [内存消耗：999.02kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219112s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.152962s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.144800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145767s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.147913s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.147421s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143373s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:36:25+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.004927s] [吞吐率：202.97req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:36:26+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.108121s] [吞吐率：0.90req/s] [内存消耗：996.96kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216455s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.151913s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.149963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.145912s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.145027s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.144991s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.143536s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:39:04+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/
+[运行时间：1.351887s] [吞吐率：0.74req/s] [内存消耗：1,122.62kb] [文件加载：100]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"macOS"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.262560s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.174202s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.174439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.175138s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.188730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.176563s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.176411s ]
+---------------------------------------------------------------
+
+[2022-10-17T18:39:04+08:00] 127.0.0.1 GET localhost:8083/static/admin/index/css/materialdesignicons.min.css.map
+[运行时间：0.020681s] [吞吐率：48.35req/s] [内存消耗：228.01kb] [文件加载：48]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2022-10-17T18:39:06+08:00] 127.0.0.1 GET localhost:8083/admin/index/index/favicon.ico
+[运行时间：1.113796s] [吞吐率：0.90req/s] [内存消耗：997.88kb] [文件加载：98]
+[ info ] [ LANG ] /Users/loivngoo/lvn/php/www/admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=o3rgvo8rlag3pdniculi43e9j6',
+  'accept-language' => 'en-US,en;q=0.9,vi;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost:8083/admin/index/index/',
+  'sec-fetch-dest' => 'image',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-ch-ua-platform' => '"macOS"',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"',
+  'connection' => 'keep-alive',
+  'host' => 'localhost:8083',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html [ array (
+  0 => 'role',
+  1 => 'userinfo',
+  2 => 'total_users',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218048s ] mysql:host=180.188.198.165;port=3306;dbname=kongjiang;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.148753s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1  AND `status` = 1 LIMIT 1 [ RunTime:0.145134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.150457s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.146855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_user` [ RunTime:0.145460s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `fa_user` [ RunTime:0.147600s ]

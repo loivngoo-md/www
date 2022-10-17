@@ -26,12 +26,14 @@ use app\admin\model\WithdrawalModel;
 use app\admin\model\LogModel;
 use app\admin\model\XuanfeiAddressModel;
 use app\admin\model\XuanfeilistModel;
+use app\admin\model\IndexModel;
 
 class Base extends Controller
 {
     protected function initialize()
     {
         parent::initialize();
+        $this->IndexModel = new IndexModel;
         $this->UserModel = new UserModel;
         $this->RoleModel = new RoleModel;
         $this->LotteryModel = new LotteryModel;
