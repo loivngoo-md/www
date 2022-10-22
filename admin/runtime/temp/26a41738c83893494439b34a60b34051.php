@@ -1,4 +1,4 @@
-<?php /*a:6:{s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html";i:1666002996;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/meta.html";i:1638604914;s:74:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/style.html";i:1638604914;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/menu.html";i:1662533153;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/head.html";i:1638604914;s:75:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/footer.html";i:1638604914;}*/ ?>
+<?php /*a:6:{s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/index/index.html";i:1666338900;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/meta.html";i:1638604914;s:74:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/style.html";i:1638604914;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/menu.html";i:1662533153;s:73:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/head.html";i:1638604914;s:75:"/Users/loivngoo/lvn/php/www/admin/application/admin/view/public/footer.html";i:1638604914;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -300,7 +300,6 @@
 
     
     <div class="row">
-      
       <div class="col-lg-12"> 
         <div class="card">
           <div class="card-header">
@@ -313,7 +312,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">用户总余额</p>
-                      <p class="h3 text-white m-b-0">102,125.00</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_total_balance); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-currency-cny fa-1-5x"></i></span> </div>
                   </div>
@@ -326,7 +325,7 @@
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">用户总数</p>
                       <script src="../../controller/Index.php"></script>
-                      <p class="h3 text-white m-b-0"><?php echo htmlentities($total_users); ?></p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_total_user); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-account fa-1-5x"></i></span> </div>
                   </div>
@@ -338,7 +337,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">新增用户</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_new_users); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -350,7 +349,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">首充人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_first_charge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -362,7 +361,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">二充人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_second_charge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -374,7 +373,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">三充人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_third_charge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -386,7 +385,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">复充人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_recharge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -398,7 +397,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">精准用户</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($precise_user); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -410,7 +409,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">下注用户</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($betting_user); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -423,7 +422,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">充值人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_recharge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -436,7 +435,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">提现人数</p>
-                      <p class="h3 text-white m-b-0"></p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_withdraw); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -470,7 +469,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">提存亏盈</p>
-                      <p class="h3 text-white m-b-0">102,125.00</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($withdraw_of_profit_and_loss); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-currency-cny fa-1-5x"></i></span> </div>
                   </div>
@@ -482,7 +481,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">充值金额</p>
-                      <p class="h3 text-white m-b-0">920,000</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($amount_recharge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-account fa-1-5x"></i></span> </div>
                   </div>
@@ -494,7 +493,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">提现金额</p>
-                      <p class="h3 text-white m-b-0">34,005,000</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($amount_withdraw); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -506,7 +505,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">首充人数</p>
-                      <p class="h3 text-white m-b-0">150人</p>
+                      <p class="h3 text-white m-b-0"><?php echo htmlentities($count_first_charge); ?></p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -518,7 +517,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">人工充值</p>
-                      <p class="h3 text-white m-b-0">34,005,000</p>
+                      <p class="h3 text-white m-b-0">1</p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-arrow-down-bold fa-1-5x"></i></span> </div>
                   </div>
@@ -530,7 +529,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">官方通道存/提</p>
-                      <p class="h3 text-white m-b-0">153.00/23.00</p>
+                      <p class="h3 text-white m-b-0">1/1</p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>
@@ -542,7 +541,7 @@
                   <div class="card-body clearfix">
                     <div class="pull-right">
                       <p class="h6 text-white m-t-0">第三方通道存/提</p>
-                      <p class="h3 text-white m-b-0">153.00/23.00</p>
+                      <p class="h3 text-white m-b-0">1/1</p>
                     </div>
                     <div class="pull-left"> <span class="img-avatar img-avatar-48 bg-translucent"><i class="mdi mdi-comment-outline fa-1-5x"></i></span> </div>
                   </div>

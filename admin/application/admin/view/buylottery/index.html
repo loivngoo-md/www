@@ -169,7 +169,6 @@
                 {field:'profit', title:'盈亏', totalRow: true, sort: true,templet:function(d){
                     if(d.is_win == 0){
                         return '<div style="color:red">未结算</div>';
-                       
                     }else if(d.is_win == 1){
                          return '<div style="color:green">'+"+"+d.profit+'</div>';
                     }else if(d.is_win == 2){
